@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS todos;
+CREATE TABLE todos(task VARCHAR(50),note VARCHAR(500));
