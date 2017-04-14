@@ -1,7 +1,13 @@
 package net.furikuri;
 
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Todo {
+    @Id
+    private Long id;
     private String task;
     private String note;
 
@@ -9,6 +15,12 @@ public class Todo {
     }
 
     public Todo(String task, String note) {
+        this.task = task;
+        this.note = note;
+    }
+
+    public Todo(Long id, String task, String note) {
+        this.id = id;
         this.task = task;
         this.note = note;
     }
