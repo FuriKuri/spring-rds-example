@@ -1,0 +1,6 @@
+spring.jpa.database: MYSQL
+
+cloud.aws.region.auto: true
+cloud.aws.stack.auto: true
+cloud.aws.rds.rdsinstance.username: admin
+cloud.aws.rds.rdsinstance.password: ${DB_PASSWORD}
