@@ -240,8 +240,7 @@ Resources:
       VPCSecurityGroups:
         - !Ref RdsInstanceSecurityGroup
       Tags:
-        -
-          Key: 'Name'
+        - Key: 'Name'
           Value: 'Todo Database'
     DeletionPolicy: "Snapshot"
   LaunchConfig:
