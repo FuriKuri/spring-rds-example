@@ -241,8 +241,8 @@ Resources:
         - !Ref RdsInstanceSecurityGroup
       Tags:
         -
-          Key: "Name"
-          Value: "My SQL Database"
+          Key: 'Name'
+          Value: 'Todo Database'
     DeletionPolicy: "Snapshot"
   LaunchConfig:
     Type: 'AWS::AutoScaling::LaunchConfiguration'
