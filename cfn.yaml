@@ -228,6 +228,8 @@ Resources:
     Properties:
       DBName: 'demo'
       DBSubnetGroupName: !Ref DbSubnetGroup
+      MultiAZ: true
+      BackupRetentionPeriod: 7
       AllocatedStorage: 5
       DBInstanceClass: 'db.t2.micro'
       DBInstanceIdentifier: rdsinstance
