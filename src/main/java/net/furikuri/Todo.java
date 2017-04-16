@@ -13,20 +13,6 @@ public class Todo {
     private String task;
     private String note;
 
-    public Todo() {
-    }
-
-    public Todo(String task, String note) {
-        this.task = task;
-        this.note = note;
-    }
-
-    public Todo(Long id, String task, String note) {
-        this.id = id;
-        this.task = task;
-        this.note = note;
-    }
-
     public Long getId() {
         return id;
     }
