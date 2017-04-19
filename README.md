@@ -2,7 +2,9 @@
 Simple spring application with spring aws cloud
 
 ## Usage
-
+```
+http get <ELB-address>
+```
 
 ## Deploy
 ### Create
